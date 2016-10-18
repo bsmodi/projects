@@ -27,7 +27,7 @@ public class DefaultOrdersEndpoint implements Orders{
 		OrderInquiryResponseType response = factory.createOrderInquiryResponseType();
 		
 		AccountType account = factory.createAccountType();
-		account.setAccountId(2);
+		account.setAccountId(1);
 		
 		response.setAccount(account);
 		
